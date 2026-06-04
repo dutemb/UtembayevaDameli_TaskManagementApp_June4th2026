@@ -1,0 +1,15 @@
+# Run the whole app with:  docker-compose up --build
+# Frontend: http://localhost:3000   Backend: http://localhost:3001
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3001:3001"
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
