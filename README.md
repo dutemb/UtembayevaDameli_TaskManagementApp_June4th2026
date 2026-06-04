@@ -55,7 +55,7 @@ Simplest structure i could compe up with basically
 
 ### How did you handle API errors?
 
-In a centralized way for not. I have helpers that would just handle each error the same way. Handling 402/400 errors currently
+In a centralized way for handling the api errors. I have helpers that would just handle each error the same way. Handling 402/400 errors currently
 This definitely would be improved had I more time 
 
 ### What tests would you write with more time?
