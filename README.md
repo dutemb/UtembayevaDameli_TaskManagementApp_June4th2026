@@ -7,6 +7,7 @@ A lightweight task-management app.
 From this folder:
 
 ```bash
+
 docker-compose up --build
 ```
 
